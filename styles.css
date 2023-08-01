@@ -1,0 +1,16 @@
+body {
+  background-color: blanchedalmond;
+}
+#grid {
+  display: flex;
+  width: 176px;
+  /* gap: 10px; */
+  flex-wrap: wrap;
+  /* border: green 4px solid; */
+}
+.gridItem {
+  border: 1px blue solid;
+  width: 9px;
+  height: 9px;
+  /* flex: 1; */
+}
