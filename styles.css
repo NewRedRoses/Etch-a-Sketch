@@ -1,16 +1,33 @@
 body {
   background-color: blanchedalmond;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #grid {
   display: flex;
   width: 176px;
-  /* gap: 10px; */
+  height: 176px;
   flex-wrap: wrap;
-  /* border: green 4px solid; */
 }
 .gridItem {
-  border: 1px blue solid;
+  border: 1px rgb(171, 171, 171) solid;
   width: 9px;
   height: 9px;
-  /* flex: 1; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: solid 1px gray;
+  border-radius: 10px;
+  padding: 20px;
+  width: 176px;
+}
+.gridItem:hover {
+  background-color: grey;
 }
