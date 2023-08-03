@@ -8,8 +8,6 @@ body {
 }
 #grid {
   display: flex;
-  width: 176px;
-  height: 176px;
   flex-wrap: wrap;
 }
 .gridItem {
@@ -26,7 +24,7 @@ body {
   border: solid 1px gray;
   border-radius: 10px;
   padding: 20px;
-  width: 176px;
+  width: 170px;
 }
 .gridItem:hover {
   background-color: black;
