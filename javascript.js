@@ -6,8 +6,13 @@ button.addEventListener("click", (event) => {
   userInput = prompt(
     "Please type in how many rows you want.\nThe limit is 30."
   );
-  deleteCurrentGrid();
-  createGrid(userInput, userInput);
+  if (userInput > 30) {
+    userInput = undefined;
+    alert("Try a number less than 30!");
+  } else {
+    deleteCurrentGrid();
+    createGrid(userInput, userInput);
+  }
 });
 
 if (userInput != undefined) {
